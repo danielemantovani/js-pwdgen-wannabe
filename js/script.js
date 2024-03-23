@@ -22,12 +22,8 @@ console.log (userInfo, typeof userInfo);
 
 
 // STAMPA DELL'OUTPUT
-const resultMessage = `${userInfo} 21`;
+const resultMessage = `${userInfo} `;
 console.log (resultMessage);
 
-
 // STAMPO IL MESSAGGIO IN PAGINA
-document.getElementById("result").innerHTML = resultMessage;
-
-
-
+document.getElementById("result").innerHTML = resultMessage + Math.floor(Math.random() * 100);
